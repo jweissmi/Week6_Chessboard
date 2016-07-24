@@ -1,0 +1,27 @@
+﻿#chess div {
+    width: 12%;
+    height: 12vw;
+    margin: 0;
+    border: 1px solid black;
+    float: left;
+}
+
+    #chess div:nth-of-type(16n+16),
+    #chess div:nth-of-type(16n+14),
+    #chess div:nth-of-type(16n+12),
+    #chess div:nth-of-type(16n+10),
+    #chess div:nth-of-type(16n+7),
+    #chess div:nth-of-type(16n+5),
+    #chess div:nth-of-type(16n+3),
+    #chess div:nth-of-type(16n+1) {
+        background-color: lightgray;
+    }
+
+    #chess div:nth-of-type(8n+1) {
+        clear: left;
+    }
+
+.chess-piece {
+    font-size: 2em;
+    text-align:center;
+}

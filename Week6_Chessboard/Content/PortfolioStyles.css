@@ -1,0 +1,25 @@
+﻿.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+.img_1-1{background-image:url(/images/1Boat_down.png);}
+.img_1-2{background-image:url(/images/1Boat_down_left.png);}
+.img_1-3{background-image:url(/images/1Boat_left.png);}
+
+.img_2-1{background-image:url(/images/1Boat_right.png);}
+.img_2-2{background-image:url(/images/1Boat_right_down.png);}
+.img_2-3{background-image:url(/images/1Boat_up.png);}
+
+.img_3-1{background-image:url(/images/1Boat_up_left.png);}
+.img_3-2{background-image:url(/images/1Boat_up_right.png);}
+.img_3-3{background-image:url(/images/3Boats_right.png);}
+
+
+
